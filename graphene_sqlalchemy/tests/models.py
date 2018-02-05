@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 
-import enum
+from graphene.types import enum
 
 from sqlalchemy import Column, Date, Enum, ForeignKey, Integer, String, Table
 from sqlalchemy.ext.declarative import declarative_base
